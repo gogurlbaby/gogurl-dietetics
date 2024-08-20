@@ -3,7 +3,6 @@ import ResponsiveContainer from './ResponsiveContainer';
 import yilmaz from '../images/yilmaz.jpg';
 import ServicesCard from './servicesCard';
 import dietitian from '../images/dietitian.jpg';
-import exercise from '../images/exercise.jpg';
 import Provenance from '../images/Provenance.jpg';
 import Exercises from '../images/Exercises.jpg';
 import Carousel from './carousel.js';
@@ -14,13 +13,8 @@ import {
     Divider,
     Grid,
     Header,
-    Icon,
     Image,
-    List,
-    Menu,
     Segment,
-    Sidebar,
-    Visibility,
 } from 'semantic-ui-react';
 
 const HomepageLayout = () => {
@@ -114,7 +108,7 @@ const HomepageLayout = () => {
                         horizontal
                         style={{ margin: '3em 0em', textTransform: 'uppercase' }}
                     >
-                        <a href='#'>Case Studies</a>
+                        <a href='/'>Case Studies</a>
                     </Divider>
 
                     <Header as='h3' style={{ fontSize: '2em' }}>
@@ -140,7 +134,7 @@ const HomepageLayout = () => {
                         horizontal
                         style={{ margin: '3em 0em', textTransform: 'uppercase' }}
                     >
-                         <a href='#'>Services</a>
+                         <a href='/'>Services</a>
                     </Divider>
                     <Grid container verticalAlign="middle" stackable >
                         <Grid.Row>

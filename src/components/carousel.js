@@ -15,19 +15,19 @@ const Carousel = () => {
     return (
         <MDBCarousel showIndicators showControls fade style={{marginTop: "10vh", mariginBottom:" 10vh"}}>
                 <MDBCarouselItem itemId={0}>
-                    <img src={exercise} style={{height: '100vh'}} className='d-block w-100' />
+                    <img src={exercise} style={{height: '100vh'}} className='d-block w-100' alt="" />
                     <MDBCarouselCaption>
                         <h4>fitness exercise</h4>
                     </MDBCarouselCaption>
                 </MDBCarouselItem>
                 <MDBCarouselItem itemId={1}>
-                    <img src={monika} style={{height: '100vh'}} className='d-block w-100' />
+                    <img src={monika} style={{height: '100vh'}} className='d-block w-100' alt="" />
                     <MDBCarouselCaption>
                         <h4>hello, there</h4>
                     </MDBCarouselCaption>
                 </MDBCarouselItem>
                 <MDBCarouselItem itemId={2}>
-                    <img src={salad} style={{height: '100vh'}}  className='d-block w-100' />
+                    <img src={salad} style={{height: '100vh'}}  className='d-block w-100'  alt=""/>
                     <MDBCarouselCaption>
                         <h4>healthy food</h4>
                     </MDBCarouselCaption>

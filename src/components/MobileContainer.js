@@ -5,19 +5,13 @@ import { Link } from 'react-router-dom';
 import {
     Button,
     Container,
-    Divider,
-    Grid,
-    Header,
     Icon,
-    Image,
-    List,
     Menu,
     Segment,
     Sidebar,
-    Visibility,
 } from 'semantic-ui-react';
 import {createMedia} from "@artsy/fresnel";
-const { MediaContextProvider, Media } = createMedia({
+const { Media } = createMedia({
     breakpoints: {
         mobile: 0,
         tablet: 768,

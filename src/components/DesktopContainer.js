@@ -3,23 +3,16 @@ import { Link } from 'react-router-dom';
 import {
     Button,
     Container,
-    Divider,
-    Grid,
-    Header,
-    Icon,
-    Image,
-    List,
     Menu,
     Segment,
-    Sidebar,
     Visibility,
 } from 'semantic-ui-react';
 import { createMedia } from "@artsy/fresnel";
 import HomepageHeading from './homepageHeading';
-import vitali from '../images/vitali.jpg';
+// import vitali from '../images/vitali.jpg';
 
 
-const { MediaContextProvider, Media } = createMedia({
+const { Media } = createMedia({
     breakpoints: {
         mobile: 0,
         tablet: 768,
@@ -58,7 +51,7 @@ const DesktopContainer = ({ children }) => {
                     textAlign='center'
                     style={{ minHeight: 700, padding: '1em 0em' }}
                     vertical
-                    style={{backgroundImage: vitali}}
+                    // style={{backgroundImage: vitali}}
                     >
                     <Menu
                         fixed={fixed ? 'top' : null}

@@ -1,29 +1,20 @@
 import React from 'react';
-import { createMedia } from "@artsy/fresnel";
 import PropTypes from 'prop-types';
 import {
     Button,
     Container,
-    Divider,
-    Grid,
     Header,
     Icon,
-    Image,
-    List,
-    Menu,
-    Segment,
-    Sidebar,
-    Visibility,
 } from 'semantic-ui-react';
 
 
-const { MediaContextProvider, Media } = createMedia({
-    breakpoints: {
-        mobile: 0,
-        tablet: 768,
-        computer: 1024,
-    },
-})
+// const { MediaContextProvider, Media } = createMedia({
+//     breakpoints: {
+//         mobile: 0,
+//         tablet: 768,
+//         computer: 1024,
+//     },
+// })
 
 
 
